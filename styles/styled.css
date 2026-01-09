@@ -35,6 +35,7 @@
     line-height: var(--main-line-height);
     color: var(--main-font-color);
     font-weight: var(--main-font-weight);
+
 }
 
 link {
@@ -54,12 +55,14 @@ li {
 @media screen and (min-width: 768px) {
     .container {
         min-width: 768px;
+        padding: 40px;
     }
     
 }
 @media screen and (min-width: 1440px) {
     .container {
         min-width: 1440px;
+        padding: 60px;
     }
 }
 .h2 {
